@@ -4,6 +4,11 @@
 #include <stdio.h>
 #ifndef DSAINC_01_STRUCTURES_01_H
 #define DSAINC_01_STRUCTURES_01_H
+struct rectangle
+{
+    int len;
+    int brt;
+};
 struct complex_num
 {
     int real;
